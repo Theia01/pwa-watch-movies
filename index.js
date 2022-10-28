@@ -5,18 +5,9 @@ const result = document.getElementById("result");
 let search = "";
 let movies = [];
 
-const fetchMovies = async () => {
-  movies = await fetch(
-    `https://api.themoviedb.org/3/search/movie?api_key=6179d850024219ef492286f790e682e1&query=${search}`
-  ).then((res) => res.json());
-  console.log(movies);
-};
-
 const moviesDisplay = async () => {
   await fetchMovies();
-
-  movies.results.length = 12;
-
+  movies.results.length = 15;
   result.innerHTML = movies.results
     .map(
       (movie) =>
@@ -34,6 +25,14 @@ const moviesDisplay = async () => {
     )
     .join("");
 };
+
+const fetchMovies = async () => {
+  movies = await fetch(
+    `https://api.themoviedb.org/3/search/movie?api_key=6179d850024219ef492286f790e682e1&query=${search}`
+  ).then((res) => res.json());
+  console.log(movies);
+};
+
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
