@@ -22,7 +22,7 @@ const moviesDisplay = async () => {
       (movie) =>
         `
         <div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
+        <div class="card mb-3">
             <img class="card-img-top" src="https://image.tmdb.org/t/p/w500${movie.poster_path}"></img>
             <div class="card-body">
                 <h5 class="card-title">${movie.original_title}</h5>
