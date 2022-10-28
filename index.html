@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P'tit ciné 🌈</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Le P'tit Ciné Magique 🌈</h1>
+        <h2>Vous avez le choix</h2>
+    </header>
+    <div class="content">
+       <section class="container">
+           <h3>Rechercher un film</h3>
+            <form id="searchForm">
+                <div class="form-group">
+                  <label for="search">Rentrer le nom du film</label>
+                  <input id="search" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nom du film">
+                </div>
+                <button type="submit" class="btn btn-primary">Chercher</button>
+            </form>
+       </section>
+       <section>
+            <div class="container">
+                <div class="row" id="result"></div>
+            </div>
+       </section>
+        <section class="container">
+           <h3>La documentation de l'API</h3>
+           <p>Si vous souhaitez implémenter l'API que j'utilise c'est par ici :
+            <br>👉 <a href="https://www.themoviedb.org/?language=fr">https://www.themoviedb.org/?language=fr</a>
+           </p>
+        </section>
+    </div>
+    <footer>
+        <p>
+            <iframe src="https://giphy.com/embed/3o7rc0qU6m5hneMsuc" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </p>
+        <p>
+            Fait avec ❤️ par une étudiante
+        </p>
+    </footer>
+</body>  
+<script src="./index.js"></script>
+
+</html>
