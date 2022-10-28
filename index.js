@@ -27,7 +27,6 @@ const moviesDisplay = async () => {
             <div class="card-body">
                 <h5 class="card-title">${movie.original_title}</h5>
                 <p class="card-text">${movie.overview}</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
         </div>
