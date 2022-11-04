@@ -17,7 +17,7 @@ Familiarisation avec la création des pages HTML + CSS + JavaScript
 - [X] Récupération clé api (v3 auth)
 - [X] Utilisation API
 
-![Alt Text](./versions/1/site1.gif)
+![Alt Text](./versions/1/site.gif)
 
 ### Ajout du manifest.json et service worker sw.js 
 
@@ -48,7 +48,7 @@ Il y a encore des efforts à fournir mais on s'approche :)
 
 Version sur portable avec installation de l'application
 
-![Alt Text](./versions/2/site2.gif)
+![Alt Text](./versions/2/site.gif)
 
 
 ## APIs
