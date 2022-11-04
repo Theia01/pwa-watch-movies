@@ -48,7 +48,7 @@ Il y a encore des efforts à fournir mais on s'approche :)
 
 Version sur portable avec installation de l'application
 
-![Alt Text](./versions/1/site2.gif)
+![Alt Text](./versions/2/site2.gif)
 
 
 ## APIs
