@@ -24,14 +24,19 @@ Familiarisation avec la création des pages HTML + CSS + JavaScript
 Création et Ajout des services Worker(sw.js) et Manifest (manifest.json)
 
 **Objectif :**
-- Ajout de 3 fichiers:
-    - [~] app.js: pour vérifier que le navigator supporte l’API contenant un code permet d’enregistrer le fichier sw.js en tant que Service Worker 
-    - [X] manifest.json: fichier json pour ajouter un raccourci vers notre application sur l’écran d’accueil du téléphone des utilisateurs.
-    - sw.js: fichier javascript permettant de faire
-        - [X] le chargement de contenu en mode hors ligne
-        - [ ] la synchronisation en arrière-plan
-        - [ ] le push de notifications
-- [] Utilisation de [Lighthouse](https://developers.google.com/web/tools/lighthouse/), viser le score 100
+Ajout de 3 fichiers:
+- [X] `app.js` : pour vérifier que le navigator supporte l’API contenant un code permet d’enregistrer le fichier sw.js en tant que Service Worker 
+- [X] `manifest.json` : fichier json pour ajouter un raccourci vers notre application sur l’écran d’accueil du téléphone des utilisateurs.
+- `sw.js` : fichier javascript permettant de faire
+    - [X] le chargement de contenu en mode hors ligne
+    - [ ] la synchronisation en arrière-plan
+    - [ ] le push de notifications
+
+---
+
+[X] Utilisation de [Lighthouse](https://developers.google.com/web/tools/lighthouse/), essayer de viser le score 100
+AU départ de l'utilisation :
+![Alt Text](./versions/2/lighthouse1.PNG)
 
 ## APIs
 
