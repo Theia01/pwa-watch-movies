@@ -1,0 +1,19 @@
+{
+    "short_name": "PWA",
+    "name": "P'tit cine PWA",
+    "description":"First app pwa, search movies with name",
+    "dir" : "ltr",
+    "lang": "fr",
+    "icons": [
+        {
+            "src": "/icons/rainbow.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color" : "#FFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFF"
+}

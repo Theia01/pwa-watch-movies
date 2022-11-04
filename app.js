@@ -1,0 +1,1 @@
+//  vérifier que le navigator supporte l’API contenant un code permet d’enregistrer le fichier sw.js en tant que Service Worker
