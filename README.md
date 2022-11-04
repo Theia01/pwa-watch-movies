@@ -34,12 +34,21 @@ Ajout de 3 fichiers:
 
 ---
 
-[X] Utilisation de [Lighthouse](https://developers.google.com/web/tools/lighthouse/), essayer de viser le score 100
-AU départ de l'utilisation :
+- [X] Utilisation de [Lighthouse](https://developers.google.com/web/tools/lighthouse/), essayer de viser le score 100
+
+Au départ de l'utilisation :
 ![Alt Text](./versions/2/lighthouse1.PNG)
+
 Et maintenant :
 ![Alt Text](./versions/2/lighthouse2.PNG)
-Il y a encore des efforts à fournir mais on s'approche
+
+Il y a encore des efforts à fournir mais on s'approche :) 
+
+---
+
+Version sur portable avec installation de l'application
+
+![Alt Text](./versions/1/site2.gif)
 
 
 ## APIs
