@@ -37,6 +37,10 @@ Ajout de 3 fichiers:
 [X] Utilisation de [Lighthouse](https://developers.google.com/web/tools/lighthouse/), essayer de viser le score 100
 AU départ de l'utilisation :
 ![Alt Text](./versions/2/lighthouse1.PNG)
+Et maintenant :
+![Alt Text](./versions/2/lighthouse2.PNG)
+Il y a encore des efforts à fournir mais on s'approche
+
 
 ## APIs
 
