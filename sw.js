@@ -12,12 +12,12 @@ self.addEventListener('install', evt => {
     evt.waitUntil(
         caches.open(CACHE_NAME)
         .then(cache => {
-            console.log('Opened cache');
+            // console.log('Opened cache');
             return cache.addAll(urlsToCache);
         })
     );
 
-    console.log("service worker has been installed!");
+    // console.log("service worker has been installed!");
 })
 
 // activation
@@ -35,11 +35,11 @@ self.addEventListener('activate', evt => {
         })
     );
 
-    console.log("service worker has been activate!");
+    // console.log("service worker has been activate!");
 })
 
 // declenche lorsqu une requete HTTP est emise par l application
 // permet d intercepter des requetes et d y repondre de façon personnalisee
 self.addEventListener('fetch', evt => {
-    console.log("Ressource récupéreée" + evt.request.url);
+    // console.log("Ressource récupéreée" + evt.request.url);
 })

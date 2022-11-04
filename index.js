@@ -30,7 +30,7 @@ const fetchMovies = async () => {
   movies = await fetch(
     `https://api.themoviedb.org/3/search/movie?api_key=6179d850024219ef492286f790e682e1&query=${search}`
   ).then((res) => res.json());
-  console.log(movies);
+  // console.log(movies);
 };
 
 
